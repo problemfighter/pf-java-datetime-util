@@ -50,7 +50,7 @@ task javadocJar(type: Jar) {
     archiveClassifier = 'javadoc'
 }
 
-Boolean isPublish = true
+Boolean isPublish = false
 if (isPublish) {
     bintray {
 
